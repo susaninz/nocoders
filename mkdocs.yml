@@ -106,6 +106,7 @@ nav:
     - Мультиагентная среда: cursor/multi-agent.md
     - Agency:
       - cursor/agency/README.md
+      - Backlog: cursor/agency/BACKLOG.md
       - Напарник: cursor/agency/staff/напарник.md
       - Разраб: cursor/agency/staff/разраб.md
       - Летописец: cursor/agency/staff/летописец.md
