@@ -81,6 +81,7 @@ markdown_extensions:
 # Navigation
 nav:
   - Главная: index.md
+  - Хочу также: getting-started.md
   
   - Cursor:
     - cursor/index.md
@@ -120,9 +121,6 @@ nav:
     - tools/index.md
     - Git: tools/git.md
     - Docker: tools/docker.md
-  
-  - Шаблоны:
-    - templates/index.md
 
 # Extra
 extra:
