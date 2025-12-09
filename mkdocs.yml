@@ -104,6 +104,10 @@ nav:
   - Cursor:
     - cursor/index.md
     - Мультиагентная среда: cursor/multi-agent.md
+    - Agency:
+      - cursor/agency/README.md
+      - Напарник: cursor/agency/staff/напарник.md
+      - Летописец: cursor/agency/staff/летописец.md
   
   - Инструменты:
     - tools/index.md
