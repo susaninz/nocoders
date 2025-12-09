@@ -232,6 +232,7 @@ Git скажет что есть конфликт и попросит разоб
 ## Полезные ссылки
 
 - [Agency — описание системы агентов](agency/README.md)
+- [Инсайты — живые истории из практики](agency/insights.md)
 - [Репозиторий nocoders](https://github.com/susaninz/nocoders)
 
 ---
