@@ -94,7 +94,7 @@ Cursor
 - **Горячая клавиша:** ++cmd+e++ (macOS) или ++ctrl+e++ (Windows/Linux)
 - **Или кнопкой** в верхней панели:
 
-![Кнопка переключения Agent Layout](../assets/cursor-agent-layout-button.png)
+![Кнопка переключения Agent Layout](images/cursor-agent-layout-button.png)
 
 *Рис. 1: Кнопка переключения layout находится в верхней панели справа*
 
@@ -106,11 +106,11 @@ Cursor
 2. Нажми на **три точки** (⋯) справа от имени агента
 3. Выбери **Rename**
 
-![Список агентов](../assets/cursor-agent-list.png)
+![Список агентов](images/cursor-agent-list.png)
 
 *Рис. 2: Список агентов в sidebar — у каждого видно статистику по файлам*
 
-![Контекстное меню агента](../assets/cursor-agent-context-menu.png)
+![Контекстное меню агента](images/cursor-agent-context-menu.png)
 
 *Рис. 3: Контекстное меню — Rename, Delete, Mark as Unread*
 
