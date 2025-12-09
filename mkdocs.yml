@@ -1,11 +1,11 @@
-site_name: Dev Knowledge Base
-site_description: Персональная база знаний по разработке ПО
+site_name: nocoders
+site_description: База знаний вайбкодера — Cursor, AI, мультиагентность и не только
 site_author: Ivan Slezkin
-site_url: https://susaninz.github.io/dev-knowledge-base/
+site_url: https://susaninz.github.io/nocoders/
 
 # Repository
-repo_name: dev-knowledge-base
-repo_url: https://github.com/susaninz/dev-knowledge-base
+repo_name: nocoders
+repo_url: https://github.com/susaninz/nocoders
 
 # Theme
 theme:
