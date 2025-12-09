@@ -101,6 +101,10 @@ nav:
     - Подход к разработке: telegram-bots/development-approach.md
     - UI паттерны: telegram-bots/ui-patterns.md
   
+  - Cursor:
+    - cursor/index.md
+    - Мультиагентная среда: cursor/multi-agent.md
+  
   - Инструменты:
     - tools/index.md
     - Git: tools/git.md
