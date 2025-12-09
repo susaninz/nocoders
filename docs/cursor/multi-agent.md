@@ -133,6 +133,7 @@ nocoders/
 ```
 
 При `git pull`:
+
 - Папка `agency/` обновится
 - Папка `my-agents/` останется нетронутой (git не удаляет твои файлы)
 
@@ -158,6 +159,7 @@ cp ~/Cursor/nocoders/agency/staff/напарник.md ~/Cursor/my-project/prompt
 4. Меняй что хочешь, пуш в свой репо
 
 Разница:
+
 - **Clone** — ты скачал чужой репозиторий, пушить туда не можешь
 - **Fork** — ты создал свою копию на GitHub, это твой репозиторий
 
@@ -167,7 +169,7 @@ cp ~/Cursor/nocoders/agency/staff/напарник.md ~/Cursor/my-project/prompt
 
 **Для кого:** Git это сложно, просто дайте файлы.
 
-1. Открой https://github.com/susaninz/nocoders
+1. Открой <https://github.com/susaninz/nocoders>
 2. Найди нужный md файл
 3. Нажми "Raw" → скопируй текст
 4. Вставь в свой файл
