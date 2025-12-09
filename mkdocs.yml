@@ -82,6 +82,18 @@ markdown_extensions:
 nav:
   - Главная: index.md
   
+  - Cursor:
+    - cursor/index.md
+    - Мультиагентная среда: cursor/multi-agent.md
+    - Agency:
+      - cursor/agency/README.md
+      - Backlog: cursor/agency/BACKLOG.md
+      - Штат:
+        - Напарник: cursor/agency/staff/напарник.md
+        - Разраб: cursor/agency/staff/разраб.md
+        - Летописец: cursor/agency/staff/летописец.md
+      # Фриланс — пока не готов
+  
   - Python:
     - python/index.md
     - Практики разработки: python/development-practices.md
@@ -100,19 +112,6 @@ nav:
     - telegram-bots/index.md
     - Подход к разработке: telegram-bots/development-approach.md
     - UI паттерны: telegram-bots/ui-patterns.md
-  
-  - Cursor:
-    - cursor/index.md
-    - Мультиагентная среда: cursor/multi-agent.md
-    - Agency:
-      - cursor/agency/README.md
-      - Backlog: cursor/agency/BACKLOG.md
-      - Штат:
-        - Напарник: cursor/agency/staff/напарник.md
-        - Разраб: cursor/agency/staff/разраб.md
-        - Летописец: cursor/agency/staff/летописец.md
-      - Фриланс:
-        - Ревизор: cursor/agency/freelance/ревизор.md
   
   - Инструменты:
     - tools/index.md
