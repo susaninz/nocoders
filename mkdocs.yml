@@ -1,11 +1,11 @@
 site_name: Dev Knowledge Base
 site_description: Персональная база знаний по разработке ПО
 site_author: Ivan Slezkin
-site_url: https://github.com/ivanslezkin/dev-knowledge-base
+site_url: https://susaninz.github.io/dev-knowledge-base/
 
 # Repository
 repo_name: dev-knowledge-base
-repo_url: https://github.com/ivanslezkin/dev-knowledge-base
+repo_url: https://github.com/susaninz/dev-knowledge-base
 
 # Theme
 theme:
@@ -113,7 +113,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ivanslezkin
+      link: https://github.com/susaninz
   
   generator: false
 
