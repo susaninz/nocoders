@@ -1,0 +1,122 @@
+site_name: Dev Knowledge Base
+site_description: Персональная база знаний по разработке ПО
+site_author: Ivan Slezkin
+site_url: https://github.com/ivanslezkin/dev-knowledge-base
+
+# Repository
+repo_name: dev-knowledge-base
+repo_url: https://github.com/ivanslezkin/dev-knowledge-base
+
+# Theme
+theme:
+  name: material
+  language: ru
+  palette:
+    # Dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+    # Light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+  
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+  
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search:
+      lang: 
+        - ru
+        - en
+  - tags
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Главная: index.md
+  
+  - Python:
+    - python/index.md
+    - Практики разработки: python/development-practices.md
+    - Async паттерны: python/async-patterns.md
+    - SQLAlchemy: python/sqlalchemy.md
+    - Тестирование: python/testing.md
+  
+  - Архитектура:
+    - architecture/index.md
+    - Clean Architecture: architecture/clean-architecture.md
+    - Dependency Lifecycle: architecture/dependency-lifecycle.md
+    - State Machine: architecture/state-machine.md
+    - Repository Pattern: architecture/repository-pattern.md
+  
+  - Telegram боты:
+    - telegram-bots/index.md
+    - Подход к разработке: telegram-bots/development-approach.md
+    - UI паттерны: telegram-bots/ui-patterns.md
+  
+  - Инструменты:
+    - tools/index.md
+    - Git: tools/git.md
+    - Docker: tools/docker.md
+  
+  - Шаблоны:
+    - templates/index.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ivanslezkin
+  
+  generator: false
+
+# Copyright
+copyright: Copyright &copy; 2025 Ivan Slezkin
+
