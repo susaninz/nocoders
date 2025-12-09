@@ -89,12 +89,13 @@ nav:
       - cursor/agency/README.md
       - Onboarding: cursor/agency/_onboarding.md
       - Backlog: cursor/agency/BACKLOG.md
+      - Инсайты: cursor/agency/insights.md
       - Штат:
         - Напарник: cursor/agency/staff/напарник.md
         - Разраб: cursor/agency/staff/разраб.md
-        - Ревизор: cursor/agency/staff/ревизор.md
-        - Механик: cursor/agency/staff/механик.md
         - Летописец: cursor/agency/staff/летописец.md
+        - Механик: cursor/agency/staff/механик.md
+        - Ревизор: cursor/agency/staff/ревизор.md
   
   - Python:
     - python/index.md
